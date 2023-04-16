@@ -22,10 +22,10 @@ mongoose
   app.use("/", route);
 
 app.get("/", (req, res ) => {
-  res.send("Server is running ");
+  res.send("Server is running on ");
 });
 
-
+ 
 
 //server is ruuning
 app.listen(PORT, () => console.log("server is running at port : " + PORT));
